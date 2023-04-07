@@ -1,7 +1,7 @@
 # DIY_OptoCube
 The OptoCube is a static temperature-controlled incubator equipped with a DMD to project light patterns on a set of agar plates. The agar plates are placed on top of a scanner to record time-lapse images of microbial growth. This setup allows high spatial and temporal resolution of light patterning (~ 0.1 mm, ~ 1 s) compared to the dimensions and dynamics of microbial colonies (> 1 mm, > 1 hour).
 
-##Building your own OptoCube
+## Building your own OptoCube
 Building an OptoCube is relatively straightforward. You need to gather a static incubator of relatively large dimension, a Digital micromirror device, a micro controller and a flatbed scanner. We propose here a set of devices that worked for us, but other commercial or DIY alternatives are of course possible.
 
 •	Incubator : Memert XXX
@@ -10,7 +10,7 @@ Building an OptoCube is relatively straightforward. You need to gather a static 
 •	Microcontroler : Arduino UNO.
 Briefly, the DMD was mounted on an incubator rack (OpenBeam construction kits). The scanner was placed below, facing up. The distance between the scanner glass and the DMD lens was 39cm. 
 
-##Controlling the DMD with the Arduino board.
+## Controlling the DMD with the Arduino board.
 The DMD was powered with a 12V 4.16A power supply and connected to the Arduino at the pins J11.4, J11.5 and J11.6 using a molex 51021-0600 connector. The scanner was connected to the computer with a USB cable. The Arduino UNO was also connected to the computer with a USB cable and was controlling the DMD using its pin number 2 to apply 3.3V at the J11.5 pin trough a voltage divider (2.2kOhm and 3.3kOhm). The Arduino 3.3V pin was connected to the J11.4 pin and the ground pin to the J11.6. 
 We use Jupyter to drive the OptoCube. To run the Jupyter script, you need to install the following package: serial (https://pypi.org/project/pyserial/) , time (https://docs.python.org/fr/3/library/time.html) and os.( https://docs.python.org/fr/3/library/os.html). You can alternatively directly download an anaconda environment containing all required packages from our github webpage.
 https://anaconda.org/matthias.lebec/optocube
@@ -24,7 +24,7 @@ The DLP® LightCrafter™ 4500 TI is a Digital Micromirror Device composed of 91
 5.	Load the firmware in the DMD.
 6.	Edit the pattern sequence and save it in the DMD. You can then unplug the computer to the DMD.
 
-##Seeting up the VueScan software to drive the scanner.
+## Seeting up the VueScan software to drive the scanner.
 We used the following parameters. Note that the use of this software is not mandatory and other open-source software that can drive a scanner should do the trick. 
 •	Media: “Black&White”
 •	Media size: A4
@@ -34,7 +34,7 @@ We used the following parameters. Note that the use of this software is not mand
 •	Number of passes: 1
 •	Color balance: “None”
 
-##Additional Requirements
+## Additional Requirements
 The petri dishes lids can generate imaging artefacts due to light reflexion. To prevent this, we used 3D printed parts (“PlateTilterAngle5”) to tilt the lids of the petri dishes at 5°.
 3D printed part “PlateTilterAngle5”
 
