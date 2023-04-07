@@ -8,6 +8,7 @@ Building an OptoCube is relatively straightforward. You need to gather a static 
 -	DMD : DLP® LightCrafter™ 4500 TI
 -	Scanner : Canon LIDE400. Note that, we opened the glass cover and apply black tape on some part of the bottom which are reflecting surfaces (this prevent undesired optogenetic activation reflection artefacts).
 -	Microcontroler : Arduino UNO.
+
 Briefly, the DMD was mounted on an incubator rack (OpenBeam construction kits). The scanner was placed below, facing up. The distance between the scanner glass and the DMD lens was 39cm. 
 
 ## Controlling the DMD with the Arduino board.
@@ -44,5 +45,5 @@ Note that to maximize the image acquisition quality you should ensure that agar 
 3.	The lid should be coated with a surfactant solution to reduce droplet formation due to condensation. We used a solution of Triton 100X 0.05% (v/v) (Eth 20%)
 
 
-
+///
 Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
