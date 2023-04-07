@@ -4,10 +4,10 @@ The OptoCube is a static temperature-controlled incubator equipped with a DMD to
 ## Building your own OptoCube
 Building an OptoCube is relatively straightforward. You need to gather a static incubator of relatively large dimension, a Digital micromirror device, a micro controller and a flatbed scanner. We propose here a set of devices that worked for us, but other commercial or DIY alternatives are of course possible.
 
-•	Incubator : Memert XXX
-•	DMD : DLP® LightCrafter™ 4500 TI
-•	Scanner : Canon LIDE400. Note that, we opened the glass cover and apply black tape on some part of the bottom which are reflecting surfaces (this prevent undesired optogenetic activation reflection artefacts).
-•	Microcontroler : Arduino UNO.
+-	Incubator : Memert XXX
+-	DMD : DLP® LightCrafter™ 4500 TI
+-	Scanner : Canon LIDE400. Note that, we opened the glass cover and apply black tape on some part of the bottom which are reflecting surfaces (this prevent undesired optogenetic activation reflection artefacts).
+-	Microcontroler : Arduino UNO.
 Briefly, the DMD was mounted on an incubator rack (OpenBeam construction kits). The scanner was placed below, facing up. The distance between the scanner glass and the DMD lens was 39cm. 
 
 ## Controlling the DMD with the Arduino board.
@@ -26,13 +26,13 @@ The DLP® LightCrafter™ 4500 TI is a Digital Micromirror Device composed of 91
 
 ## Seeting up the VueScan software to drive the scanner.
 We used the following parameters. Note that the use of this software is not mandatory and other open-source software that can drive a scanner should do the trick. 
-•	Media: “Black&White”
-•	Media size: A4
-•	Output file: 16 bits greyscale .tiff (no reduction nor compression)
-•	Make Grey from: Auto
-•	Scan resolution: 600 dpi
-•	Number of passes: 1
-•	Color balance: “None”
+-	Media: “Black&White”
+-	Media size: A4
+-	Output file: 16 bits greyscale .tiff (no reduction nor compression)
+-	Make Grey from: Auto
+-	Scan resolution: 600 dpi
+-	Number of passes: 1
+-	Color balance: “None”
 
 ## Additional Requirements
 The petri dishes lids can generate imaging artefacts due to light reflexion. To prevent this, we used 3D printed parts (“PlateTilterAngle5”) to tilt the lids of the petri dishes at 5°.
