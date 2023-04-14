@@ -4,7 +4,7 @@ The OptoCube is a static temperature-controlled incubator equipped with a DMD to
 ## Building your own OptoCube
 Building an OptoCube is relatively straightforward. You need to gather a static incubator of relatively large dimension, a Digital micromirror device, a micro controller and a flatbed scanner. We propose here a set of devices that worked for us, but other commercial or DIY alternatives are of course possible.
 
--	Incubator : Memert XXX
+-	Incubator : Memert (any large enough static incubator will do)
 -	DMD : DLP® LightCrafter™ 4500 TI
 -	Scanner : Canon LIDE400. Note that, we opened the glass cover and apply black tape on some part of the bottom which are reflecting surfaces (this prevent undesired optogenetic activation reflection artefacts).
 -	Microcontroler : Arduino UNO.
