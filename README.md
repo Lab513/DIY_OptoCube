@@ -45,5 +45,6 @@ Note that to maximize the image acquisition quality you should ensure that agar 
 3.	The lid should be coated with a surfactant solution to reduce droplet formation due to condensation. We used a solution of Triton 100X 0.05% (v/v) (Eth 20%)
 
 
-///
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
